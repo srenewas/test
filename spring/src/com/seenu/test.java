@@ -7,7 +7,7 @@ class test{
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 		student student = (com.seenu.student) context.getBean("stud");
-		address address = new address("mncl", "india");
+		address address = new address("bngl", "india");
 
 		student.display();
 		
